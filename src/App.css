@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  width: 50%;
+  margin: auto;
 }
 
 .App-logo {
@@ -35,4 +37,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card {
+  border: #282c34 1px solid;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.block {
+  width: 50%;
+  margin: auto;
+}
+
+.button {
+  margin: 10px;
+}
+
+.red {
+  color: red;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.button {
+  padding: 0 10px;
 }
