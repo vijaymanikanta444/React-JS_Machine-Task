@@ -1,6 +1,6 @@
-import * as types from '../actions/types';
+// import * as types from '../actions/types';
 
-const InitialState = [
+const initialState = [
   {
     id: 1,
     name: 'test1',
@@ -51,10 +51,10 @@ const InitialState = [
   },
 ];
 
-const users = (state = InitialState, action) => {
+const users = (state = initialState, action) => {
   switch (action.type) {
-    case types.GET_USERS:
-      return action.users;
+    // case types.GET_USERS:
+    //   return state;
 
     default:
       return state;

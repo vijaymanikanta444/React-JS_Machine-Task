@@ -7,10 +7,7 @@ import LoginPage from './components/LoginPage';
 function App({ isAuthenticated }) {
   console.log(isAuthenticated);
   return (
-    <div className="App">
-      {isAuthenticated ? <DashBoard /> : <LoginPage />}
-      {/* <DashBoard /> */}
-    </div>
+    <div className="App">{isAuthenticated ? <DashBoard /> : <LoginPage />}</div>
   );
 }
 const mapStateToProps = (state) => {
