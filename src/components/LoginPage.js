@@ -41,7 +41,9 @@ export class LoginPage extends Component {
     const { authenticationError } = this.props;
     return (
       <div className="card">
-        {authenticationError && <p>Enter Credentials***</p>}
+        {authenticationError && (
+          <p className="red">Enter Valid Credentials***</p>
+        )}
         <Form onSubmit={this.onSubmit}>
           <Form.Group className="block">
             <Form.Label>Username</Form.Label>
